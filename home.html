@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dr Rhiannon V Eastment</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">The <span>Smith</span> Lab</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" onclick="this.nextElementSibling.classList.toggle('open')">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <p class="hero-eyebrow">// Evolution & Ecotoxicology  </p>
+        <h1>Temp: Understanding life at the edge of change</h1>
+        <p class="hero-sub">Temp: summary.</p>
+        <a href="research.html" class="btn btn-primary">Our Research</a>
+        <a href="publications.html" class="btn btn-outline">Publications</a>
+      </div>
+      <div class="hero-image-card">
+        <div class="hero-img-placeholder">🌿</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STAT BAR -->
+  <div class="stat-bar">
+    <div class="stat-bar-inner">
+      <div class="stat">
+        <div class="stat-number">3</div>
+        <div class="stat-label">Research Themes</div>
+      </div>
+      <div class="stat">
+        <div class="stat-number">40+</div>
+        <div class="stat-label">Publications</div>
+      </div>
+      <div class="stat">
+        <div class="stat-number">12</div>
+        <div class="stat-label">Lab Members</div>
+      </div>
+      <div class="stat">
+        <div class="stat-number">8</div>
+        <div class="stat-label">Active Projects</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- RESEARCH THEMES -->
+  <section class="section section--tinted">
+    <div class="container">
+      <div class="section-header">
+        <h4>What We Do</h4>
+        <h2>Research Themes</h2>
+        <p>Our lab takes an integrative approach to ecology and evolutionary biology, combining field work, laboratory experiments, and computational modelling.</p>
+      </div>
+      <div class="themes-grid">
+        <div class="theme-card">
+          <div class="theme-card-icon">🦋</div>
+          <h3>Behavioural Ecology</h3>
+          <p>How animals make decisions under uncertainty — foraging, mate choice, predator avoidance — and how these behaviours evolve across populations.</p>
+        </div>
+        <div class="theme-card">
+          <div class="theme-card-icon">🌡️</div>
+          <h3>Climate Adaptation</h3>
+          <p>Physiological and morphological responses to rapid environmental change, including range shifts, phenological mismatches, and thermal tolerance.</p>
+        </div>
+        <div class="theme-card">
+          <div class="theme-card-icon">🔬</div>
+          <h3>Community Ecology</h3>
+          <p>The assembly rules, interaction networks, and biodiversity dynamics of ecological communities, from microbiomes to vertebrate assemblages.</p>
+        </div>
+      </div>
+      <div style="margin-top: 2rem;">
+        <a href="research.html" class="btn btn-primary">Explore our research →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- LATEST NEWS -->
+  <section class="section section--dark">
+    <div class="container">
+      <div class="section-header">
+        <h4>Latest Updates</h4>
+        <h2>Lab News</h2>
+      </div>
+      <div class="news-grid">
+        <div class="news-card">
+          <div class="news-card-body">
+            <div class="news-date">June 2025</div>
+            <h3>New paper published in <em>Nature Ecology & Evolution</em></h3>
+            <p>Our latest work on thermal adaptation in temperate insects reveals unexpected plasticity across generations.</p>
+          </div>
+        </div>
+        <div class="news-card">
+          <div class="news-card-body">
+            <div class="news-date">April 2025</div>
+            <h3>Two new PhD students join the lab</h3>
+            <p>Welcome to Maria and Tom, who will be working on community ecology and climate physiology respectively.</p>
+          </div>
+        </div>
+        <div class="news-card">
+          <div class="news-card-body">
+            <div class="news-date">February 2025</div>
+            <h3>NERC grant awarded for biodiversity monitoring project</h3>
+            <p>We are excited to begin a new 3-year project studying long-term community change in upland grasslands.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <div>
+        <div class="footer-brand">The <span>Smith</span> Lab</div>
+        <p class="footer-desc">Department of Ecology & Evolutionary Biology<br>University Name · City, Country</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigate</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Connect</h4>
+        <ul class="footer-links">
+          <li><a href="#">Twitter / X</a></li>
+          <li><a href="#">Google Scholar</a></li>
+          <li><a href="#">ResearchGate</a></li>
+          <li><a href="#">GitHub</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 The Smith Lab. All rights reserved.</span>
+      <span>Built with GitHub Pages</span>
+    </div>
+  </footer>
+
+</body>
+</html>
