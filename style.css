@@ -169,7 +169,7 @@ nav {
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(27,58,45,.15) 0%, rgba(27,58,45,.15) 100%);
+  background: linear-gradient(180deg, rgba(27,58,45,.25) 0%, rgba(27,58,45,.4) 100%);
   z-index: 1;
 }
 
