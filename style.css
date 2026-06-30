@@ -14,7 +14,7 @@
   --muted:     #5A5A52;
   --rule:      #D8D2C4;
 
-  --font-display: 'Playfair Display', Georgia, serif;
+  --font-display: 'Inter', system-ui, sans-serif;
   --font-body:    'Inter', system-ui, sans-serif;
   --font-mono:    'JetBrains Mono', monospace;
 
