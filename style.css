@@ -179,11 +179,12 @@ nav {
  
 .hero-content .subtitle {
   font-family: var(--font-mono);
-  font-size: .85rem;
+  font-size: 1.55rem;
+   font-weight: 700;
   letter-spacing: .12em;
   text-transform: uppercase;
-  color: var(--amber);
-  margin-bottom: 1rem;
+  color: var(--cream);
+  margin-bottom: 1.5rem;
 }
  
 .hero-content h1 {
@@ -213,18 +214,20 @@ nav {
  
 .hero-links a {
   color: var(--cream);
-  font-size: .9rem;
+  font-size: .85rem;
   font-weight: 600;
   letter-spacing: .03em;
   display: inline-flex;
   align-items: center;
   gap: .4rem;
-  border-bottom: 2px solid transparent;
-  padding-bottom: .15rem;
-  transition: border-color .2s, color .2s;
+  padding: .6rem 1.4rem;
+  border-radius: 999px;
+  border: 1.5px solid rgba(247, 243, 236, 0.35);
+  transition: background .2s, border-color .2s, color .2s;
 }
 .hero-links a:hover {
-  color: var(--amber);
+  background: var(--amber);
+  color: var(--forest);
   border-color: var(--amber);
 }
  
