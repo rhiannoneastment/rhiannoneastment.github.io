@@ -154,7 +154,8 @@ nav {
   text-align: center;
   padding: 0 2rem;
 }
- 
+
+/* Background image to be used in the hero section */
 .hero-bg {
   position: absolute;
   inset: 0;
@@ -163,12 +164,31 @@ nav {
   background-position: center;
   z-index: 0;
 }
- 
+
+/* Add an overlay to the photo so that it is not completely opaque */
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(27,58,45,.55) 0%, rgba(27,58,45,.75) 100%);
+  background: linear-gradient(180deg, rgba(27,58,45,.15) 0%, rgba(27,58,45,.15) 100%);
   z-index: 1;
+}
+
+/* Add photo credit to the hero image */
+.hero-credit {
+  position: absolute;
+  bottom: 1rem;
+  right: 1.25rem;
+  z-index: 2;
+  font-size: .72rem;
+  color: rgba(247, 243, 236, 0.75);
+  letter-spacing: .02em;
+}
+.hero-credit a {
+  color: rgba(247, 243, 236, 0.75);
+  text-decoration: underline;
+}
+.hero-credit a:hover {
+  color: var(--cream);
 }
  
 .hero-content {
