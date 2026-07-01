@@ -85,7 +85,7 @@ p:last-child { margin-bottom: 0; }
 .section--dark h4 { color: var(--paper); }
 .section--dark p { color: #C8D9CC; }
 
-.section--tinted { background: var(--paper); }
+.section--tinted { background: var(--cream); }
 
 /* ============================
    NAV
@@ -95,7 +95,7 @@ nav {
   top: 0;
   z-index: 100;
   height: var(--nav-h);
-  background: #888;
+  background: var(--ink);
   display: flex;
   align-items: center;
   border-bottom: 3px solid var(--golden-glow);
