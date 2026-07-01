@@ -272,10 +272,10 @@ nav {
 .btn:hover { transform: translateY(-2px); }
  
 .btn-primary {
-  background: var(--cream);
-  color: var(--ink);
+  background: var(--olive-leaf);
+  color: var(--paper);
 }
-.btn-primary:hover { background: var(--cream); color: var(--ink); }
+.btn-primary:hover { background: var(--olive-leaf); color: var(--golden-glow); }
  
 .btn-outline {
   background: transparent;
