@@ -147,7 +147,7 @@ nav {
 }
 
 /* ============================
-   HERO - full-bleed photo with overlay text
+   HERO (homepage)
    ============================ */
 .hero {
   position: relative;
@@ -286,7 +286,7 @@ nav {
 .btn-outline:hover { border-color: var(--cream); color: var(--cream); }
 
 /* ============================
-   ABOUT ME SECTION
+   ABOUT ME SECTION (homepage)
    ============================ */
 .about-section {
   padding: 90px 0;
@@ -369,7 +369,7 @@ nav {
 .page-hero {
   background: var(--paper);
   padding: 60px 0 50px;
-  border-bottom: 3px solid var(--golden-glow);
+  border-bottom: none;
 }
 .page-hero h4 { color: var(--ink); margin-bottom: .5rem; }
 .page-hero h1 { color: var(--ink); font-size: clamp(1.8rem, 4vw, 2.8rem); }
@@ -428,6 +428,7 @@ nav {
   color: var(--amber);
   border-bottom: 2px solid var(--rule);
   padding-bottom: .5rem;
+  padding-left: 1.25rem;
   margin-bottom: 1.5rem;
 }
 .pub-item {
