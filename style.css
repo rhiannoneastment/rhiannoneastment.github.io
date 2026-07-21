@@ -390,14 +390,14 @@ nav {
 .research-block:nth-child(even) { direction: rtl; }
 .research-block:nth-child(even) > * { direction: ltr; }
 
-.research-img-placeholder {
+.research-img {
   border-radius: 6px;
   height: 280px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 4rem;
+  width: 100%;
+  object-fit: cover;
+  display: block;
 }
+
 .research-img-placeholder.bg1 { background: linear-gradient(135deg, #1B3A2D, #2E5E45); }
 .research-img-placeholder.bg2 { background: linear-gradient(135deg, #3A2D1B, #5E452E); }
 .research-img-placeholder.bg3 { background: linear-gradient(135deg, #1B2A3A, #2E455E); }
