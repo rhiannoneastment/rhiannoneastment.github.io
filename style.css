@@ -359,7 +359,12 @@ nav {
 }
 .section-header h4 { margin-bottom: .4rem; }
 .section-header h2 { margin-bottom: .75rem; }
-.section-header p { max-width: 620px; color: var(--muted); }
+.section-header p {
+  max-width: 480px;       
+  font-size: 1.15rem;     
+  line-height: 1.6;      
+  color: var(--muted);
+}
 .section-header--center { text-align: center; }
 .section-header--center p { margin: 0 auto; }
 
