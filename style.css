@@ -355,18 +355,16 @@ nav {
    SECTION HEADER
    ============================ */
 .section-header {
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;   /* was 3rem */
 }
 .section-header h4 { margin-bottom: .4rem; }
-.section-header h2 { margin-bottom: .75rem; }
+.section-header h2 { margin-bottom: .5rem; }  /* was .75rem */
 .section-header p {
-  max-width: 480px;       
-  font-size: 1.15rem;     
-  line-height: 1.6;      
+  max-width: 480px;
+  font-size: 1.15rem;
+  line-height: 1.4;        /* was 1.6 — tighter */
   color: var(--muted);
 }
-.section-header--center { text-align: center; }
-.section-header--center p { margin: 0 auto; }
 
 /* ============================
    PAGE HERO (inner pages)
