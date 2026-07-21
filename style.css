@@ -397,9 +397,8 @@ nav {
 
 .research-img {
   border-radius: 6px;
-  height: 280px;
   width: 100%;
-  object-fit: cover;
+  height: auto;
   display: block;
 }
 
